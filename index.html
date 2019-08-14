@@ -25,21 +25,21 @@
     </div>
 
     <div class="row">
-      <div class="col-4">
+      <div class="offset-1 col-10 offset-md-0 col-md-4">
         <div class="card bg-secondary text-light text-center" type="button" onclick="play('rock')">
           <div class="card-body">
             Rock
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="offset-1 col-10 offset-md-0 col-md-4">
         <div class="card bg-secondary text-light text-center" type="button" onclick="play('paper')">
           <div class="card-body">
             Paper
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="offset-1 col-10 offset-md-0 col-md-4">
         <div class="card bg-secondary text-light text-center" type="button" onclick="play('scissors')">
           <div class="card-body">
             Scissors
@@ -59,21 +59,26 @@
     <div class="invisible" id="result-visibility">
 
       <div class="row">
-        <div class="offset-2 col-8">
+        <div class="col-12 offset-md-2 col-md-8">
+
           <div class="row">
+
             <div class="col-12">
+
               <div class="card text-center bg-secondary" id="result-card">
                 <div class="card-body lead">
                   <h1 id="play-result">result goes here</h1>
                 </div>
               </div>
+
             </div>
+
           </div>
 
           <br>
 
           <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-md-4">
               <div class="card bg-success text-center">
                 <div class="card-title">
                   Player
@@ -83,7 +88,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
               <div class="card text-center bg-warning">
                 <div class="card-title ">Ties</div>
                 <div class="card-body" id="ties-tally">
@@ -91,7 +96,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4">
               <div class="card text-center bg-danger">
                 <div class="card-title">Bot</div>
                 <div class="card-body" id="bot-tally">
