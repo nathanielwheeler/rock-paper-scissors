@@ -1,0 +1,19 @@
+h100 {
+  height: 100vh;
+}
+h10 {
+  height: 10vh;
+}
+body {
+  background: black;
+}
+.card {
+  margin: 5px;
+}
+.card-body {
+  font-size: 2em;
+}
+.card-title {
+  padding-top: 10px;
+  font-size: 1.5em;
+}
