@@ -5,7 +5,7 @@ h10 {
   height: 10vh;
 }
 body {
-  background: black;
+  background: #3c3836;
 }
 .card {
   margin: 5px;
@@ -16,4 +16,28 @@ body {
 .card-title {
   padding-top: 10px;
   font-size: 1.5em;
+}
+.bg-secondary {
+  background: #7c6f64!important;
+}
+.bg-success {
+  background: #79740e!important;
+}
+.bg-warning {
+  background: #b57614!important;
+}
+.bg-danger {
+  background: #9d0006!important;
+}
+.bg-info {
+  background: #076678!important;
+}
+.text-light {
+  text: #d5c4a1!important;
+}
+.choice-button:hover {
+  background: #928374!important;
+}
+.reset-button:hover {
+  background: #458588!important;
 }
